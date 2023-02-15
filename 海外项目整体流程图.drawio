@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T09:51:32.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZBVB5W9-JmZyWKPgNGxQ" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-15T09:53:57.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1qSDZy7Helmg2-xSARTZ" version="20.5.3" type="github" pages="3">
   <diagram id="dG59jZYkGHcQ83PpY25N" name="审批交互流程- OCR及活体补件">
-    <mxGraphModel dx="961" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,8 +11,8 @@
           <mxGeometry y="40" width="2120" height="1600" as="geometry" />
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-3" value="APP" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-2">
-          <mxGeometry x="40" width="1160" height="1600" as="geometry">
-            <mxRectangle width="1160" height="1600" as="alternateBounds" />
+          <mxGeometry x="40" width="750" height="1600" as="geometry">
+            <mxRectangle width="750" height="1600" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cv0lFlZ8FoBvVvXNN0k_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lhXjlcBijL8t4H8WG22u-3" source="Cv0lFlZ8FoBvVvXNN0k_-1" target="Cv0lFlZ8FoBvVvXNN0k_-15">
@@ -149,12 +149,18 @@
         <mxCell id="Cv0lFlZ8FoBvVvXNN0k_-57" value="用户活体是否提交成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-3">
           <mxGeometry x="220" y="1210" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="Cv0lFlZ8FoBvVvXNN0k_-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lhXjlcBijL8t4H8WG22u-3" source="Cv0lFlZ8FoBvVvXNN0k_-63" target="Cv0lFlZ8FoBvVvXNN0k_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Cv0lFlZ8FoBvVvXNN0k_-63" value="活体页面直接回显不可修改（无重试入口）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-3">
           <mxGeometry x="210" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Cv0lFlZ8FoBvVvXNN0k_-67" value="进件完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-3">
+          <mxGeometry x="210" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-4" value="审批系统" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-2">
-          <mxGeometry x="1200" width="420" height="1600" as="geometry">
-            <mxRectangle width="420" height="1600" as="alternateBounds" />
+          <mxGeometry x="790" width="830" height="1600" as="geometry">
+            <mxRectangle width="830" height="1600" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-5" value="Phase 3" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-2">
@@ -162,17 +168,17 @@
             <mxRectangle width="500" height="1600" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lhXjlcBijL8t4H8WG22u-6" value="Actor 2" style="shape=tableRow;horizontal=0;startSize=40;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-1">
+        <mxCell id="lhXjlcBijL8t4H8WG22u-6" value="策略审批" style="shape=tableRow;horizontal=0;startSize=40;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-1">
           <mxGeometry y="1640" width="2120" height="412" as="geometry" />
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-7" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-6">
-          <mxGeometry x="40" width="1160" height="412" as="geometry">
-            <mxRectangle width="1160" height="412" as="alternateBounds" />
+          <mxGeometry x="40" width="750" height="412" as="geometry">
+            <mxRectangle width="750" height="412" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-8" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-6">
-          <mxGeometry x="1200" width="420" height="412" as="geometry">
-            <mxRectangle width="420" height="412" as="alternateBounds" />
+          <mxGeometry x="790" width="830" height="412" as="geometry">
+            <mxRectangle width="830" height="412" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-9" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-6">
@@ -184,13 +190,13 @@
           <mxGeometry y="2052" width="2120" height="414" as="geometry" />
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-11" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-10">
-          <mxGeometry x="40" width="1160" height="414" as="geometry">
-            <mxRectangle width="1160" height="414" as="alternateBounds" />
+          <mxGeometry x="40" width="750" height="414" as="geometry">
+            <mxRectangle width="750" height="414" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-12" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-10">
-          <mxGeometry x="1200" width="420" height="414" as="geometry">
-            <mxRectangle width="420" height="414" as="alternateBounds" />
+          <mxGeometry x="790" width="830" height="414" as="geometry">
+            <mxRectangle width="830" height="414" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lhXjlcBijL8t4H8WG22u-13" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="lhXjlcBijL8t4H8WG22u-10">
